@@ -38,7 +38,7 @@ def recommend(username, users):
     recommendations = []
     # zarekomenduj użytkownikowi wykonawcę, którego jeszcze nie ocenił, a zrobił to jego najbliższy sąsiada
     # TODO: wpisz kod
-    # using the fn sorted for variety - sort is more efficient
+    # zwróć posortowane rekomendacje
     return sorted(recommendations, key=lambda artistTuple: artistTuple[1], reverse = True)
 
 # przykłady
